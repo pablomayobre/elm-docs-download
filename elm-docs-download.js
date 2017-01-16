@@ -11,7 +11,7 @@ let cwd;
 
 commander
   .description('Downloads documentation.json for all your installed dependencies')
-  .version('0.1.0')
+  .version('0.1.1')
   .arguments('[dir]')
   .description('  [dir] optional search directory (default is current directory)')
   .action((argument) => {

@@ -1,0 +1,31 @@
+{
+  "name": "elm-docs-download",
+  "version": "0.1.0",
+  "author": [
+    {
+      "name": "Pablo A. Mayobre (Positive07)",
+      "email": "pablo.a.mayobre@gmail.com",
+      "url": "https://positive07.github.io/"
+    }
+  ],
+  "description": "Download docs for Elm packages",
+  "summary": "Download missing documentation.json for packages in elm-stuff",
+  "repository": "https://github.com/Positive07/elm-docs-download",
+  "homepage": "https://github.com/Positive07/elm-docs-download",
+  "license": "MIT",
+  "main": "elm-docs-download.js",
+  "devDependencies": {
+    "eslint": "^3.13.1",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "bin": {
+    "elm-docs-download": "./elm-docs-download.js"
+  },
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "glob": "^7.0.0"
+  }
+}

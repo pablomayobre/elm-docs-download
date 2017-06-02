@@ -22,7 +22,7 @@
     "elm-docs-download": "./elm-docs-download.js"
   },
   "scripts": {
-    "start": "node cli.js"
+    "start": "node elm-docs-download.js"
   },
   "dependencies": {
     "commander": "^2.9.0",
